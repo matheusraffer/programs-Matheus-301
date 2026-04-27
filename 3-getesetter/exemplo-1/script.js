@@ -15,6 +15,3 @@ const heroi = {
     return this._hp + "HP"
   }
 }
-
-const teste = 21312
-const teste2 = 12312321
