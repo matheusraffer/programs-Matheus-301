@@ -1,0 +1,89 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Corpo */
+body {
+  background: #0f172a;
+  color: #e2e8f0;
+  padding: 20px;
+}
+
+/* Header */
+header {
+  background: #1e293b;
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 25px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+}
+
+header h2 {
+  font-size: 18px;
+  margin-bottom: 6px;
+}
+
+/* Cards */
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+  gap: 20px;
+}
+
+/* Card */
+.container {
+  background: #1e293b;
+  padding: 18px;
+  border-radius: 12px;
+  transition: 0.3s;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  border-left: 5px solid #38bdf8;
+}
+
+.container:hover {
+  transform: translateY(-6px);
+  background: #334155;
+}
+
+/* Título */
+.container h3 {
+  color: #38bdf8;
+  margin-bottom: 10px;
+}
+
+/* Texto */
+.container p {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+/* Cores da saúde */
+.saude-bom {
+  color: #22c55e;
+  font-weight: bold;
+}
+
+.saude-regular {
+  color: #facc15;
+  font-weight: bold;
+}
+
+.saude-ruim {
+  color: #ef4444;
+  font-weight: bold;
+}
+
+/* Rodapé */
+main {
+  margin-top: 25px;
+  background: #1e293b;
+  padding: 15px;
+  border-radius: 12px;
+  text-align: center;
+  font-size: 16px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}

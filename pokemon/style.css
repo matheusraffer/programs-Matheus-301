@@ -1,0 +1,13 @@
+.ads1{
+  width: 200px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.ads2{
+  width: 350px;
+  position: absolute;
+  bottom: -100px;
+  left: -100px;
+}
