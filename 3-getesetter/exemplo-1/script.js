@@ -15,3 +15,5 @@ const heroi = {
     return this._hp + "HP"
   }
 }
+
+const teste = 21312
