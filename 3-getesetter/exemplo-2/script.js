@@ -11,6 +11,7 @@ class SistemaAC  {
     set temperatura(valor){
         if (valor < 16 || valor > 30){
             window.alert("Valor invalido")
+            this.#temp = 22
         } else {
             this.#temp = valor
         }
